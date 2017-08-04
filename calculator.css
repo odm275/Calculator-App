@@ -1,0 +1,21 @@
+h1{
+  text-align: center;
+}
+.col-xs-3{
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 15px 32px;/*enlarge our button space*/
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+.col-xs-6{
+  background-color: rgb(237, 209, 1);
+  border: none;
+  color: white;
+  padding: 15px 32px;/*enlarge our button space*/
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
