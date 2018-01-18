@@ -1,48 +1,40 @@
 <html>
 <head>
+<link rel = "stylesheet" href = "css/style.css" />
 <script src = "calculator.js"></script>
-<link rel = "stylesheet" href = "calculator.css" />
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
 </head>
+<title>Calculator </title>
 <body>
   <h1>Electronic Calculator</h1>
-  <div class = "container">
-    <div class = "row">
-      <div class="col-xs-12">
-        <div id = "output"> </div>
-      </div>
-    </div>
 
+<div class = "calcbox">
+  <div class="calcbox--result">
     <div class = "row">
-      <button class = "col-xs-3" id="AC" onclick='AC()'>AC</button>
-      <button class = "col-xs-3" id="CE" onclick='CE()'>CE</button>
-      <button class = "col-xs-3" id="percent" onclick="PI()">&#960</button>
-      <button class = "col-xs-3" id="mult" onclick="number('*')">*</button>
+        <h1 id = "output"> </h1>
     </div>
-    <div class = "row">
-      <button class = "col-xs-3" id ="9" onclick="number(9)">9</button>
-      <button class = "col-xs-3" id="7" onclick="number(7)">7</button>
-      <button class = "col-xs-3" id="8" onclick="number(8)">8</button>
-      <button class = "col-xs-3" id="div" onclick="number('/')">/</button>
+  </div>
+    <div class="calcbox--btnbox">
+      <button class = "calcbox--btnbox--calcButton" onclick='AC()'>AC</button>
+      <button class = "calcbox--btnbox--calcButton" onclick='CE()'>CE</button>
+      <button class = "calcbox--btnbox--calcButton" onclick="PI()">PI</button>
+      <button class = "calcbox--btnbox--calcButton"  onclick="number('*')">*</button>
+      <button class = "calcbox--btnbox--calcButton" onclick="number(9)">9</button>
+      <button class = "calcbox--btnbox--calcButton"  onclick="number(7)">7</button>
+      <button class = "calcbox--btnbox--calcButton"  onclick="number(8)">8</button>
+      <button class = "calcbox--btnbox--calcButton"  onclick="number('/')">/</button>
+      <button class = "calcbox--btnbox--calcButton" onclick="number(4)">4</button>
+      <button class = "calcbox--btnbox--calcButton" onclick="number(5)">5</button>
+      <button class = "calcbox--btnbox--calcButton" onclick="number(6)">6</button>
+      <button class = "calcbox--btnbox--calcButton" onclick="number('-')">-</button>
+      <button class = "calcbox--btnbox--calcButton" onclick="number(1)">1</button>
+      <button class = "calcbox--btnbox--calcButton" onclick="number(2)">2</button>
+      <button class = "calcbox--btnbox--calcButton" onclick="number(3)">3</button>
+      <button class = "calcbox--btnbox--calcButton" onclick="number('+')">+</button>
+      <button class = "calcbox--btnbox--calcButton" onclick="number(0)"> 0 </button>
+      <button class = "calcbox--btnbox--calcButton" onclick = "number('.')"> . </button>
+      <button class = "calcbox--btnbox--calcButton"   onclick="number('=')">=</button>
     </div>
-    <div class = "row">
-      <button class = "col-xs-3" id="4" onclick="number(4)">4</button>
-      <button class = "col-xs-3" id="5" onclick="number(5)">5</button>
-      <button class = "col-xs-3" id="6" onclick="number(6)">6</button>
-      <button class = "col-xs-3" id ="sub" onclick="number('-')">-</button>
-    </div>
-    <div class = "row">
-      <button class = "col-xs-3" id="1" onclick="number(1)">1</button>
-      <button class = "col-xs-3" id="2" onclick="number(2)">2</button>
-      <button class = "col-xs-3" id="3" onclick="number(3)">3</button>
-      <button class = "col-xs-3" id"plus" onclick="number('+')">+</button>
-    </div>
-    <div class="row">
-      <button class = "col-xs-3" id="0" onclick="number(0)"> 0 </button>
-      <button class = "col-xs-3" id="." onclick = "number('.')"> . </button>
-      <button class = "col-xs-6" id = '=' onclick="number('=')">=</button>
-    </div>
-
 </div> <!--CONTAINER-->
 
 </body>

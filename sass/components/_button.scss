@@ -1,0 +1,36 @@
+.calcbox{
+  background-color: $background-calculator;
+  height:35rem;
+  width: 25rem;
+
+  border-radius:2rem;
+
+
+  padding-top:5rem;
+  padding-right:1rem;
+  padding-left:1rem;
+
+
+  margin-left:20rem;
+
+  &--calcButton{
+    width:5rem;
+    height:5rem;
+    border-radius:100px;
+    border-color:black;
+    background-color: $btn-color;
+    font-weight: bold;
+    font-size: 1.5rem;
+
+
+  }
+  &--result{
+    text-align: center;
+    width:22rem;
+    height:5rem;
+    background-color: rgba(140, 140, 140, 0.5);
+    margin-bottom:10px;
+
+
+  }
+}

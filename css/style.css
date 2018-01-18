@@ -1,0 +1,34 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%;
+  background-color: #E1EDEB; }
+
+.calcbox {
+  background-color: #FFD53D;
+  height: 35rem;
+  width: 25rem;
+  border-radius: 2rem;
+  padding-top: 5rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  margin-left: 20rem; }
+  .calcbox--calcButton {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 100px;
+    border-color: black;
+    background-color: #FF4567;
+    font-weight: bold;
+    font-size: 1.5rem; }
+  .calcbox--result {
+    text-align: center;
+    width: 22rem;
+    height: 5rem;
+    background-color: rgba(140, 140, 140, 0.5);
+    margin-bottom: 10px; }
