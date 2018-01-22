@@ -6,9 +6,10 @@
   border-radius:2rem;
 
 
-  padding-top:5rem;
+  padding-top:3rem;
   padding-right:1rem;
-  padding-left:1rem;
+  padding-left:4rem;
+  padding-bottom:5rem;
 
 
   margin-left:20rem;
@@ -20,9 +21,8 @@
     border-color:black;
     background-color: $btn-color;
     font-weight: bold;
-    font-size: 1.5rem;
-
-
+    font-size: 1.9rem;
+    
   }
   &--result{
     text-align: center;

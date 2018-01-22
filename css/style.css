@@ -14,9 +14,10 @@ html {
   height: 35rem;
   width: 25rem;
   border-radius: 2rem;
-  padding-top: 5rem;
+  padding-top: 3rem;
   padding-right: 1rem;
-  padding-left: 1rem;
+  padding-left: 4rem;
+  padding-bottom: 5rem;
   margin-left: 20rem; }
   .calcbox--calcButton {
     width: 5rem;
@@ -25,7 +26,7 @@ html {
     border-color: black;
     background-color: #FF4567;
     font-weight: bold;
-    font-size: 1.5rem; }
+    font-size: 1.9rem; }
   .calcbox--result {
     text-align: center;
     width: 22rem;
