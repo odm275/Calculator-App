@@ -9,6 +9,34 @@ html {
   font-size: 62.5%;
   background-color: #E1EDEB; }
 
+.row {
+  max-width: 114rem;
+  background-color: #eee;
+  margin: 0 auto;
+  margin-bottom: 8rem; }
+  .row [class^="col-"] {
+    height: 10rem;
+    background-color: #FF4567;
+    text-align: center;
+    float: left; }
+    .row [class^="col-"]:not(:last-child) {
+      margin-right: 6rem; }
+  .row:not(:last-child) {
+    margin-bottom: 8rem; }
+  .row::after {
+    content: "";
+    display: table;
+    clear: both; }
+  .row .col-1-of-4 {
+    width: calc((100% - 3 * 6rem)/4); }
+  .row .col-2-of-4 {
+    width: calc((100% - 6rem)/2); }
+
+#equal {
+  width: 10.3rem;
+  height: 5rem;
+  border-radius: 100px; }
+
 .calcbox {
   background-color: #FFD53D;
   height: 35rem;
@@ -26,7 +54,9 @@ html {
     border-color: black;
     background-color: #FF4567;
     font-weight: bold;
-    font-size: 1.9rem; }
+    font-size: 2.5rem;
+    margin-left: 0.1rem;
+    margin-top: 1rem; }
   .calcbox--result {
     text-align: center;
     width: 22rem;

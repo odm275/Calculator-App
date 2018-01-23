@@ -1,11 +1,14 @@
+#equal{
+  width:10.3rem;
+  height:5rem;
+  border-radius:100px;
+}
 .calcbox{
   background-color: $background-calculator;
   height:35rem;
   width: 25rem;
 
   border-radius:2rem;
-
-
   padding-top:3rem;
   padding-right:1rem;
   padding-left:4rem;
@@ -15,14 +18,16 @@
   margin-left:20rem;
 
   &--calcButton{
-    width:5rem;
-    height:5rem;
+    width:$calc-btn-dim;
+    height:$calc-btn-dim;
     border-radius:100px;
     border-color:black;
     background-color: $btn-color;
     font-weight: bold;
-    font-size: 1.9rem;
-    
+    font-size: $calc-btn-dim/2;
+    margin-left:0.1rem;
+    margin-top: 1rem;
+
   }
   &--result{
     text-align: center;
@@ -30,7 +35,5 @@
     height:5rem;
     background-color: rgba(140, 140, 140, 0.5);
     margin-bottom:10px;
-
-
   }
 }
