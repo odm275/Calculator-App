@@ -7,59 +7,40 @@
 
 html {
   font-size: 62.5%;
-  background-color: #E1EDEB; }
+  background-color: #FFD53D; }
+
+.tophat {
+  width: 100px;
+  height: 100px; }
 
 .row {
   max-width: 114rem;
-  background-color: #eee;
+  background-color: #FFD53D;
   margin: 0 auto;
-  margin-bottom: 8rem; }
+  margin-bottom: 1rem; }
   .row [class^="col-"] {
+    border-radius: 3rem;
     height: 10rem;
+    font-size: 6rem;
+    font-family: "Lucida Console", Lucida, monospace;
     background-color: #FF4567;
     text-align: center;
+    vertical-align: middle;
+    line-height: 10rem;
+    /* the same as your div height */
     float: left; }
     .row [class^="col-"]:not(:last-child) {
-      margin-right: 6rem; }
+      margin-right: 1rem; }
   .row:not(:last-child) {
-    margin-bottom: 8rem; }
+    margin-bottom: 1rem; }
   .row::after {
     content: "";
     display: table;
     clear: both; }
   .row .col-1-of-4 {
-    width: calc((100% - 3 * 6rem)/4); }
+    width: calc((100% - 3 * 1rem)/4); }
   .row .col-2-of-4 {
-    width: calc((100% - 6rem)/2); }
-
-#equal {
-  width: 10.3rem;
-  height: 5rem;
-  border-radius: 100px; }
-
-.calcbox {
-  background-color: #FFD53D;
-  height: 35rem;
-  width: 25rem;
-  border-radius: 2rem;
-  padding-top: 3rem;
-  padding-right: 1rem;
-  padding-left: 4rem;
-  padding-bottom: 5rem;
-  margin-left: 20rem; }
-  .calcbox--calcButton {
-    width: 5rem;
-    height: 5rem;
-    border-radius: 100px;
-    border-color: black;
-    background-color: #FF4567;
-    font-weight: bold;
-    font-size: 2.5rem;
-    margin-left: 0.1rem;
-    margin-top: 1rem; }
-  .calcbox--result {
-    text-align: center;
-    width: 22rem;
-    height: 5rem;
-    background-color: rgba(140, 140, 140, 0.5);
-    margin-bottom: 10px; }
+    width: calc((100% - 1rem)/2); }
+  .row .col-4-of-4 {
+    background-color: #eee;
+    width: 100%; }

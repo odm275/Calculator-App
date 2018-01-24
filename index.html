@@ -4,9 +4,10 @@
 <script src = "calculator.js"></script>
 
 </head>
-<title>Calculator </title>
+<title>Mr Calculator</title>
 <body>
-  <h1>Electronic Calculator</h1>
+  <h1 style="text-align:center; font-size: 5rem">Mr. Calculator</h1>
+  <img src="tophat.svg" class = "tophat"/>
 <!-- To do:
 - Give space to buttons except the ones in corners:
 https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_nth-of-type_formula
@@ -16,13 +17,12 @@ https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_nth-of-type_formula
 -Increase Font inside button.
 
  -->
-<div class = "calcbox">
-  <div class="calcbox--result">
-        <h1 id = "output"> </h1>
-  </div>
-</div> <!--CONTAINER-->
-
+<div class="container">
 <section class="grid-test">
+
+<div class="row">
+  <div class="col-4-of-4"id = "output"> </div>
+</div>
 
 <div class="row">
   <div class="col-1-of-4" onclick='AC()'>
@@ -98,6 +98,6 @@ https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_nth-of-type_formula
 
 
 </section>
-
+</div>
 </body>
 </html>
