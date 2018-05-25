@@ -13,6 +13,9 @@ html {
   width: 100px;
   height: 100px; }
 
+#output {
+  overflow: hidden; }
+
 .row {
   max-width: 114rem;
   background-color: #FFD53D;
